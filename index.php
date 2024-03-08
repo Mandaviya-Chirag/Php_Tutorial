@@ -44,7 +44,7 @@ $index = 0;
                     <td><?= ++$index ?></td>
                     <td><?= $row['name'] ?></td>
                     <td><?= $row['password'] ?></td>
-                    <td><a href="api/update.php?id=<?=$row['id']?>">update</a></td>
+                    <td><a href="updateform.php?id=<?=$row['id']?>">update</a></td>
                     <td><a href="api/delete.php?id=<?= $row['id'] ?>">Delete</a></td>
                 </tr>
             <?php } ?>
